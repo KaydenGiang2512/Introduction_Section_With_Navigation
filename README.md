@@ -17,8 +17,8 @@ This is a solution to the [Introduction section with navigation challenge on Fro
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://www.frontendmentor.io/solutions/introduction-section-with-navigation-using-html5-css3-and-vanilla-js-b6KzJMJLM4)
+- Live Site URL: (https://kaydengiang2512.github.io/Introduction_Section_With_Navigation/)
 
 ## My process
 
