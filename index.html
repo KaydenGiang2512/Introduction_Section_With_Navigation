@@ -3,37 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Epilogue">
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+  <header>
+    <img src="images/logo.svg" alt="" class="logo-image">
+    <div class="menu">
+      <img src="images/icon-menu.svg" alt="" class="burger-icon">
+      <img src="images/icon-close-menu.svg" alt="" class="close-icon">
+    </div>
+    <nav class="side-navbar">
+      <div class="sub-menu">
+        <span class="sub-menu-toggle-1">
+          <a href="javascript:;">Features</a>
+          <img src="images/icon-arrow-down.svg" alt="" class="down-icon-1">
+          <img src="images/icon-arrow-up.svg" alt="" class="up-icon-1">
+        </span>
+        <div class="sub-menu-items-1">
+          <span>
+            <img src="images/icon-todo.svg" alt="">
+            <a href="javascript:;">Todo List</a>
+          </span>
+          <span>
+            <img src="images/icon-calendar.svg" alt="">
+            <a href="javascript:;">Calendar</a>
+          </span>
+          <span>
+            <img src="images/icon-reminders.svg" alt="">
+            <a href="javascript:;">Reminders</a>
+          </span>
+          <span>
+            <img src="images/icon-planning.svg" alt="">
+            <a href="javascript:;">Planning</a>
+          </span>
+        </div>
+      </div>
+      <div class="sub-menu">
+        <span class="sub-menu-toggle-2">
+          <a href="javascript:;">Company</a>
+          <img src="images/icon-arrow-down.svg" alt="" class="down-icon-2">
+          <img src="images/icon-arrow-up.svg" alt="" class="up-icon-2">
+        </span>
+        <div class="sub-menu-items-2">
+          <span><a href="javascript:;">History</a></span>
+          <span><a href="javascript:;">Our Team</a></span>
+          <span><a href="javascript:;">Blog</a></span>
+        </div>
+      </div>
+      <span><a href="javascript:;">Careers</a></span>
+      <span><a href="javascript:;">About</a></span>
+      <span><a href="javascript:;">Login</a></span>
+      <span><a href="javascript:;">Register</a></span>
+    </nav>
+  </header>
 
-  Features
-  Company
-  Careers
-  About
-
-  Login
-  Register
-
-  Make remote work
-
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
-
-  Learn more
+  <main>
+    <div class="body-overlay"></div>
+    <div class="main-image"><img src="images/image-hero-mobile.png" alt=""></div>
+    <div class="content">
+      <h1>Make remote work</h1>
+      <p>
+        Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+      <button>Learn more</button>
+      <div class="partnership-section">
+        <img src="images/client-databiz.svg" alt="">
+        <img src="images/client-audiophile.svg" alt="">
+        <img src="images/client-meet.svg" alt="">
+        <img src="images/client-maker.svg" alt="">
+      </div>
+    </div>
+  </main>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer class="attribution">
+    <span>Challenge by &nbsp;<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>&nbsp;| 
+    Coded by &nbsp;<a href="https://www.linkedin.com/in/nhatkhanhgiang2512/">Giang Nhật Khánh (Kayden)</a></span>
+  </footer>
 </body>
+<script src="script.js"></script>
 </html>
